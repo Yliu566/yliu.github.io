@@ -3,6 +3,7 @@
 
 # Theme settings
 theme: minimal-mistakes-jekyll
+remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "air"  # "default", "air", "auqa", "contrast", "dark", "dirt", "mint", "plum", "sunrise"
 
 # site settings
