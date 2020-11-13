@@ -21,7 +21,4 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
 end
 
-# secruity needs. suggest by github.
-gem "activesupport", ">= 4.1.11"
-
 gem "minimal-mistakes-jekyll"
