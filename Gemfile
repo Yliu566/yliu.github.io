@@ -22,3 +22,7 @@ group :jekyll_plugins do
 end
 
 gem "minimal-mistakes-jekyll"
+
+# becasue github gives me depdendabot alerts, so I add the following commands:
+gem "nokogiri", ">= 1.11.0"
+gem "kramdown", ">= 2.3.1"

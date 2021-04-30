@@ -1,8 +1,9 @@
 ---
 layout: single
-title: About
 permalink: /about/
+title: "About"
+author_profile: true
 ---
 <!-- # About page -->
 
-This page tells you a little bit about me.
+This page tells you a little about me.

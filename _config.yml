@@ -13,10 +13,9 @@ title_separator                 :  "|"
 subtitle                        : #
 email                           : your-email@example.com
 name                            : "Yuru Liu"
-description                     : "An amazing website."
+description                     : "An place where I store what I learnt."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
+url                             : "yliu566@github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username                 :  "Yliu566"
 search                          : true
 breadcrumbs                     : true
@@ -42,24 +41,31 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
 
+#site author
 author:
   name      : "Yuru Liu"
   avatar    : "/assets/images/avatar.png"
-  bio       : "Currently a PhD student majored in chemistry @rcclab-fse-rug"
+  bio       : #"Currently a PhD student majored in chemistry @rcclab-fse-rug"
   location  : "Groningen, NL"
-  # links:
-  #   - label: "Website"
-  #     icon: "fas fa-fw fa-link"
-  #     url: "https://"
-  #   - label: "Twitter"
-  #     icon: "fab fa-fw fa-twitter-square"
-  #     url: "https://twitter.com/"
-  #   - label: "GitHub"
-  #     icon: "fab fa-fw fa-github"
-  #     url: "https://github.com/"
-  #   - label: "Instagram"
-  #     icon: "fab fa-fw fa-instagram"
-  #     url: "https://instagram.com/"
+  links:
+    # - label: "Website"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+    - label: "ResearchGate"
+      icon: "fab fa-fw fa-researchgate"
+      url: "https://www.researchgate.net/"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+    #   url: "https://instagram.com/"
 
 # footer:
 #   links:
@@ -79,12 +85,13 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: post
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
@@ -92,6 +99,9 @@ defaults:
     values:
       layout: single
       author_profile: true
+      show_date: true
+  #
+
 
 category_archive:
   type: liquid

@@ -1,7 +1,7 @@
 var store = [{
-        "title": "My fist post",
-        "excerpt":"This is the first blog. Let’s see what it will look like.  ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/2020/08/19/This-is-my-first-blog.html",
+        "title": "Notes regarding using markdown",
+        "excerpt":"Here are some notes about basic syntax of markdown. Headings Headings are with number sign (#) in front of a word or a phrase. The number of # signs indicate the level of the headings. For example, first-level heading is using ‘#’ and second level heading is using ‘##’. Remember...","categories": ["Languages"],
+        "tags": ["markdown"],
+        "url": "/languages/2021/04/30/markdown-basics.html",
         "teaser": null
       }]
