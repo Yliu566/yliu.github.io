@@ -37,8 +37,8 @@ Ordered list is created by add numbers with a period to each line items. The fol
 2. Second item
 3. Third item
 4. Fourth item
-  1. subitem 1
-  2. subitem 2
+    1. subitem 1
+    2. subitem 2
 
 ## Unordered list
 Unordered list is created by add dash (\-), asterisk (\*) or plus sign (\+) in front each items.
@@ -56,12 +56,36 @@ Blockquote is created by adding a \> in front of a sentence or paragraph.
 > Here shows the rendered output of a blocquoted texts.
   > Here is a nested blockquoted texts.
 
-# Adding images
-
-how to add images?
-
 # URLs
 
 To create a URL into a link, put angle brackets around the link. (\< url \>)
 
 Here is a link to this blog: <https://yliu566.github.io/>
+
+# Tables
+
+### Table 1
+
+| Entry         | Item   |                                                              |
+| --------      | ------ | ------------------------------------------------------------ |
+| [item1](#)    | 1111   | Description of the item in the list                          |
+| [item2](#)    | 2222   | Description of the item in the list                          |
+| [item3](#)    | 3333   | Description of the item in the list                          |
+
+### Table 2
+
+| Header1 | Header2 | Header3 |
+|:--------|:-------:|--------:|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|-----------------------------|
+| cell1   | cell2   | cell3   |
+| cell4   | cell5   | cell6   |
+|=============================|
+| Foot1   | Foot2   | Foot3   |
+
+
+
+# Adding images
+
+how to add images?

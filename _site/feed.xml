@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="yliu566@github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="yliu566@github.io/" rel="alternate" type="text/html" /><updated>2021-04-30T21:50:15+02:00</updated><id>yliu566@github.io/feed.xml</id><title type="html">Yuru’s blog</title><subtitle>An place where I store what I learnt.</subtitle><author><name>Yuru Liu</name></author><entry><title type="html">Notes: markdown basics</title><link href="yliu566@github.io/languages/2021/04/30/markdown-basics.html" rel="alternate" type="text/html" title="Notes: markdown basics" /><published>2021-04-30T00:00:00+02:00</published><updated>2021-04-30T00:00:00+02:00</updated><id>yliu566@github.io/languages/2021/04/30/markdown-basics</id><content type="html" xml:base="yliu566@github.io/languages/2021/04/30/markdown-basics.html">&lt;p&gt;Here are some notes about basic syntax of markdown.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="yliu566@github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="yliu566@github.io/" rel="alternate" type="text/html" /><updated>2021-04-30T22:50:26+02:00</updated><id>yliu566@github.io/feed.xml</id><title type="html">Yuru’s blog</title><subtitle>An place where I store what I learnt.</subtitle><author><name>Yuru Liu</name></author><entry><title type="html">Notes: markdown basics</title><link href="yliu566@github.io/languages/2021/04/30/markdown-basics.html" rel="alternate" type="text/html" title="Notes: markdown basics" /><published>2021-04-30T00:00:00+02:00</published><updated>2021-04-30T00:00:00+02:00</updated><id>yliu566@github.io/languages/2021/04/30/markdown-basics</id><content type="html" xml:base="yliu566@github.io/languages/2021/04/30/markdown-basics.html">&lt;p&gt;Here are some notes about basic syntax of markdown.&lt;/p&gt;
 
 &lt;h1 id=&quot;headings&quot;&gt;Headings&lt;/h1&gt;
 
@@ -29,9 +29,12 @@ Eg: &lt;strong&gt;&lt;em&gt;I am both bold and italic texts.&lt;/em&gt;&lt;/stro
   &lt;li&gt;First item&lt;/li&gt;
   &lt;li&gt;Second item&lt;/li&gt;
   &lt;li&gt;Third item&lt;/li&gt;
-  &lt;li&gt;Fourth item&lt;/li&gt;
-  &lt;li&gt;subitem 1&lt;/li&gt;
-  &lt;li&gt;subitem 2&lt;/li&gt;
+  &lt;li&gt;Fourth item
+    &lt;ol&gt;
+      &lt;li&gt;subitem 1&lt;/li&gt;
+      &lt;li&gt;subitem 2&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&quot;unordered-list&quot;&gt;Unordered list&lt;/h2&gt;
@@ -57,12 +60,86 @@ Eg: &lt;strong&gt;&lt;em&gt;I am both bold and italic texts.&lt;/em&gt;&lt;/stro
 Here is a nested blockquoted texts.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h1 id=&quot;adding-images&quot;&gt;Adding images&lt;/h1&gt;
-
-&lt;p&gt;how to add images?&lt;/p&gt;
-
 &lt;h1 id=&quot;urls&quot;&gt;URLs&lt;/h1&gt;
 
 &lt;p&gt;To create a URL into a link, put angle brackets around the link. (&amp;lt; url &amp;gt;)&lt;/p&gt;
 
-&lt;p&gt;Here is a link to this blog: &lt;a href=&quot;https://yliu566.github.io/&quot;&gt;https://yliu566.github.io/&lt;/a&gt;&lt;/p&gt;</content><author><name>Yuru Liu</name></author><category term="Languages" /><category term="markdown" /><summary type="html">Here are some notes about basic syntax of markdown.</summary></entry></feed>
+&lt;p&gt;Here is a link to this blog: &lt;a href=&quot;https://yliu566.github.io/&quot;&gt;https://yliu566.github.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;tables&quot;&gt;Tables&lt;/h1&gt;
+
+&lt;h3 id=&quot;table-1&quot;&gt;Table 1&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Entry&lt;/th&gt;
+      &lt;th&gt;Item&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;#&quot;&gt;item1&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;1111&lt;/td&gt;
+      &lt;td&gt;Description of the item in the list&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;#&quot;&gt;item2&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;2222&lt;/td&gt;
+      &lt;td&gt;Description of the item in the list&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;#&quot;&gt;item3&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;3333&lt;/td&gt;
+      &lt;td&gt;Description of the item in the list&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;table-2&quot;&gt;Table 2&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Header1&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Header2&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Header3&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tfoot&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Foot1&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Foot2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;Foot3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tfoot&gt;
+&lt;/table&gt;
+
+&lt;h1 id=&quot;adding-images&quot;&gt;Adding images&lt;/h1&gt;
+
+&lt;p&gt;how to add images?&lt;/p&gt;</content><author><name>Yuru Liu</name></author><category term="Languages" /><category term="markdown" /><summary type="html">Here are some notes about basic syntax of markdown.</summary></entry></feed>

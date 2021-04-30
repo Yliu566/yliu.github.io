@@ -2,7 +2,7 @@
 # github pages: mmistakes/miminal-mmistakes
 
 # Theme settings
-theme: minimal-mistakes-jekyll
+theme: "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"  # "default", "air", "auqa", "contrast", "dark", "dirt", "mint", "plum", "sunrise"
 
