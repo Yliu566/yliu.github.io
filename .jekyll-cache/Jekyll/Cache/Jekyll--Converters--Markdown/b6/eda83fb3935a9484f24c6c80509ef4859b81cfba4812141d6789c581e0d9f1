@@ -1,0 +1,69 @@
+I"�<p>Here are some notes about basic syntax of markdown.</p>
+
+<h1 id="headings">Headings</h1>
+
+<p>Headings are with number sign (#) in front of a word or a phrase. The number of # signs indicate the level of the headings. For example, first-level heading is using ‘#’ and second level heading is using ‘##’.
+Remember to add space between “#” and your word or phrase.</p>
+
+<h1 id="emphasis">Emphasis</h1>
+<p>In general, we need to add emphasis to the content by using bold or italic texts.</p>
+
+<h2 id="bold">Bold</h2>
+<p>Bold type is created by add two asterisk (**) around the letter without space.
+eg: <strong>I am bold text.</strong></p>
+
+<h2 id="italic">Italic</h2>
+<p>Italic type is created by add one asterisk(*) or underscore(_) around the letter without space.
+Eg: <em>I am italic text.</em>  or <em>I am italic text as well.</em></p>
+
+<h2 id="bold-and-italic">Bold and Italic</h2>
+<p>This type is created by adding three asterisk (***) around the letters without space.
+Eg: <strong><em>I am both bold and italic texts.</em></strong></p>
+
+<h1 id="lists">Lists</h1>
+
+<h2 id="ordered-list">Ordered list</h2>
+<p>Ordered list is created by add numbers with a period to each line items. The following is an example.</p>
+
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item</li>
+  <li>subitem 1</li>
+  <li>subitem 2</li>
+</ol>
+
+<h2 id="unordered-list">Unordered list</h2>
+<p>Unordered list is created by add dash (-), asterisk (*) or plus sign (+) in front each items.</p>
+
+<ul>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+  <li>Fourth item
+    <ul>
+      <li>subitem 1</li>
+      <li>subitem 2</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="blockquotes">Blockquotes</h1>
+<p>Blockquote is created by adding a &gt; in front of a sentence or paragraph.</p>
+
+<blockquote>
+  <p>Here shows the rendered output of a blocquoted texts.
+Here is a nested blockquoted texts.</p>
+</blockquote>
+
+<h1 id="adding-images">Adding images</h1>
+
+<p>how to add images?</p>
+
+<h1 id="urls">URLs</h1>
+
+<p>To create a URL into a link, put angle brackets around the link. (&lt; url &gt;)</p>
+
+<p>Here is a link to this blog: <a href="https://yliu566.github.io/">https://yliu566.github.io/</a></p>
+:ET
