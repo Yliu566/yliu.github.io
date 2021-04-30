@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Notes regarding using markdown"
+title: "Notes: markdown basics"
 last-edit:  
 categories: Languages
 tags: markdown
